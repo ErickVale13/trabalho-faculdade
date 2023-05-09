@@ -1,0 +1,22 @@
+.formulario-login {
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: -1px 0px 20px 0px rgb(0 0 0 / 14%);
+}
+
+.titulo-pagina {
+    color: #1b1e22;
+}
+
+.descricao-pagina {
+    color: #1b1e22;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.texto-reservado {
+    font-size: 13px;
+}
