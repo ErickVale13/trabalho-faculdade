@@ -1,6 +1,25 @@
 @extends('layouts.principal')
 
 @section('content')
+
+        <style>
+        *{
+            background: #b1ba8e;
+            color: #fff;
+        }
+
+        .titulo-pagina{
+            font-weight: bold;
+            color: #7a6448;
+        }
+
+        .btn1{
+            border-radius: 15px;
+            background: #7a6448;
+            color: #fff;
+        }
+    </style>
+
     <div class="container">
         <div class="content mt-5">
             <div class="row">
@@ -34,7 +53,7 @@
                             <label for="usuario" class="form-label">Endereço</label>
                             <input type="text" class="form-control" id="address" name="address">
                         </div>
-                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                        <button type="submit" class="btn btn-primary btn1">Cadastrar</button>
                     </form>
                 </div>
             </div>

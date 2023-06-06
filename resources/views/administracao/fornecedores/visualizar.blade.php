@@ -1,6 +1,20 @@
 @extends('layouts.principal')
 
 @section('content')
+
+    <style>
+        .titulo-pagina{
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+        }
+        .container{
+            background: #7a6448;
+            color: #fff;
+        }
+
+    </style>
+
     <div class="container">
         <div class="content mt-5">
             <div class="row">

@@ -1,6 +1,14 @@
 @extends('layouts.principal')
 
 @section('content')
+
+  <style>
+     *{
+        background: #000;
+        color: #fff;
+      }
+  </style>
+
     <div class="container">
         <div class="content mt-5">
             <div class="row">

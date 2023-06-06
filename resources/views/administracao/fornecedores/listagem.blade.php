@@ -1,6 +1,20 @@
 @extends('layouts.principal')
 
 @section('content')
+
+  <style>
+
+        tr{
+            text-align: center;
+            background: #cdb28a;
+        }
+
+        th{
+            text-align: center;
+            background: #d4ddb1;
+        }
+    </style>
+    
     <div class="container">
         <div class="content mt-5">
             <div class="row">
